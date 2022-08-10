@@ -10,12 +10,10 @@ public class GeradorDeFigurinhas {
 
     public void cria(InputStream inputStream, String nomeArquivo) throws Exception{
         // Leitura Imagem
-               // leitura da imagem
-        // InputStream inputStream = 
-        //             new FileInputStream(new File("entrada/filme-maior.jpg"));
-        // InputStream inputStream = 
-        //                 new URL("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg")
-        //                 .openStream();
+    
+        // InputStream inputStream = new FileInputStream(new File("entrada/filme-maior.jpg"));
+
+        // InputStream inputStream = new URL("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg").openStream();              
     
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
 
